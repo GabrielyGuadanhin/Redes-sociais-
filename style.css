@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root{
-    --cor-principal:#4CC5F5;
+    --cor-principal:#83AFF2;
     --cor-secundaria:#987CF2;
-    --cor-texto: #83AFF2;
+    --cor-texto:#4CC5F5 ;
     --cor-de-fundo:#3275D1;
     --font:"Quicksand", sans-serif;
 }
