@@ -15,13 +15,13 @@ body{
     margin: 0%;
 }
 .cabecalho{ 
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     text-align: center;
     padding: 1px;
 }
 .cabecalho_titulo{
     font-size: 2rem;
-    color: var(--cor-de-fundo);
+    color: var(--cor-texto);
     font-weight: 700;
 }
 
