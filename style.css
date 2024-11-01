@@ -8,8 +8,8 @@
 }
 
 body{
-    background-color: var(--cor-principal)
-    color: var(#987CF2);
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
     font-family: var(--font);
     height: 100vh;
     margin: 0%;
