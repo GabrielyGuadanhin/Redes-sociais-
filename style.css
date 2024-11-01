@@ -1,63 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-:root{
-    --cor-principal:#F17CF5;
-    --cor-secundaria:#987CF2;
-    --cor-texto:#F5E2F2;
-    --cor-de-fundo:#eeb1a0;
-    --font:"Quicksand", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-principal: #F17CF5;
+    --cor-secundaria: #987CF2;
+    --cor-texto: #F5E2F2;
+    --cor-de-fundo: #eeb1a0;
+    --font: "Quicksand", sans-serif;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     color: var(--cor-principal);
     font-family: var(--font);
     height: 100vh;
-    margin: 0%;
+    margin: 0;
 }
-.cabecalho{ 
+
+.cabecalho { 
     background-color: var(--cor-texto);
     text-align: center;
     padding: 1px;
 }
-.cabecalho_titulo{
+
+.cabecalho_titulo {
     font-size: 2rem;
     color: var(--cor-texto);
     font-weight: 700;
 }
 
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: center;
     font-weight: 400;
 }
+
 nav a {
     text-decoration: none;
     color: var(--cor-texto);
-    margin: 0 2rem 1rem 0rem;
-    font-size: 1.2rem ;
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: underline;
     transform: scale(0.9);
     transition: transform 0.1s;
-    
 }
+
 .graficos-container {
     margin: 5cm;
 }
 
-.graficos-container_texto{ 
+.graficos-container_texto { 
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
     border: var(--cor-secundaria) solid 2px;
-
 }
 
 span {
     font-weight: bold;
     color: var(--cor-secundaria);
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -68,3 +73,4 @@ footer {
     height: 3rem;
     margin-top: 2rem;
 }
+
