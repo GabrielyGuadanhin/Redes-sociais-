@@ -49,8 +49,8 @@ nav a:hover{
 .graficos-container_texto{ 
     font-size: 1.3rem;
     text-align: center;
-    padding: 1rem;
-    border: var(--cor-secundaria) solid 2px;
+    padding: 2rem;
+    border: var(--cor-texto); solid 2px;
 
 }
 
