@@ -21,7 +21,7 @@ body{
 }
 .cabecalho_titulo{
     font-size: 2rem;
-    color: var(--cor-principal);
+    color: var(--cor-de-fundo);
     font-weight: 700;
 }
 
