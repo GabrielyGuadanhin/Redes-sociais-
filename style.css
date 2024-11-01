@@ -8,15 +8,16 @@
 }
 
 body{
-    background-color: var(--cor-principal);
-    color: var(--cor-texto);
+    background-color: var(--cor-texto);
+    color: var(--cor-principal);
     font-family: var(--font);
     height: 100vh;
     margin: 0%;
 }
 .cabecalho{ 
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     text-align: center;
+    padding: 1px;
 }
 .cabecalho_titulo{
     font-size: 2rem;
@@ -41,8 +42,8 @@ nav a:hover{
     transition: transform 0.1s;
     
 }
-graficos-container{
-    margin: 5cm;
+graficos-container {
+    margin: 5rem;
 }
 
 graficos-container_texto{ 
@@ -53,11 +54,11 @@ graficos-container_texto{
 
 }
 
-span{
+span {
     font-weight: bold;
     color: var(--cor-secundaria);
 }
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
