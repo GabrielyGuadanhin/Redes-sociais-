@@ -50,7 +50,7 @@ nav a:hover{
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(--cor-texto); solid 2px;
+    border: var(--cor-secundaria) solid 2px;
 
 }
 
