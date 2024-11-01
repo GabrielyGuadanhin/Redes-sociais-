@@ -15,7 +15,7 @@ body{
     margin: 0%;
 }
 .cabecalho{ 
-    background-color: var(--cor-principal);
+    background-color: var(--cor-texto);
     text-align: center;
     padding: 1px;
 }
