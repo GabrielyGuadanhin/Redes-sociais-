@@ -3,19 +3,19 @@
     --cor-principal:#F17CF5;
     --cor-secundaria:#987CF2;
     --cor-texto:#F5E2F2;
-    --cor-de-fundo:#D69B8A;
+    --cor-de-fundo:#eeb1a0;
     --font:"Quicksand", sans-serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
     font-family: var(--font);
     height: 100vh;
     margin: 0%;
 }
 .cabecalho{ 
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     text-align: center;
     padding: 1px;
 }
@@ -42,12 +42,12 @@ nav a:hover{
     transition: transform 0.1s;
     
 }
-graficos-container {
+.graficos-container {
     margin: 5cm;
 }
 
-graficos-container_texto{ 
-    font-size: 1,3rem;
+.graficos-container_texto{ 
+    font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
     border: var(--cor-secundaria) solid 2px;
