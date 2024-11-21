@@ -20,7 +20,7 @@ const layout = {
     paper_bgcolor: getCSS('--bg-color'),
     title: {
         text: 'Redes sociais com mais usuários',
-        x: 0, 
+        x: 0,
         font: {
             color: getCSS('--primary-color'),
             size: 30,
@@ -45,7 +45,7 @@ const layout = {
             font: {
                 color: getCSS('--secondary-color')
             }
-        }
+     }
     }
 }
 
